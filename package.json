@@ -10,6 +10,6 @@
     "url": "https://github.com/SnapperGee/portfolio/issues"
   },
   "scripts": {
-    "install": "npm --prefix client install & npm --prefix server install"
+    "install": "npm --prefix client install && npm --prefix server install"
   }
 }
