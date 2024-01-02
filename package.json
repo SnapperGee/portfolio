@@ -10,6 +10,7 @@
     "url": "https://github.com/SnapperGee/portfolio/issues"
   },
   "scripts": {
+    "dev": "concurrently -k \"npm --prefix client run dev\" \"npm --prefix server start\"",
     "install": "npm --prefix client install && npm --prefix server install"
   },
   "devDependencies": {
