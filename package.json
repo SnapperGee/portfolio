@@ -4,7 +4,7 @@
   "private": true,
   "description": "My portfolio website.",
   "type": "module",
-  "author": "Snap",
+  "author": "Snap <XxSnapperGeexX@gmail.com> (https://github.com/SnapperGee)",
   "repository": "github:SnapperGee/portfolio",
   "bugs": {
     "url": "https://github.com/SnapperGee/portfolio/issues"
