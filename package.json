@@ -11,5 +11,8 @@
   },
   "scripts": {
     "install": "npm --prefix client install && npm --prefix server install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
