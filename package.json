@@ -10,10 +10,8 @@
     "url": "https://github.com/SnapperGee/portfolio/issues"
   },
   "scripts": {
-    "dev": "npm --prefix server run dev",
     "express": "npm --prefix server run dev",
     "install": "npm --prefix client install && npm --prefix server install",
-    "predev": "npm --prefix client run build",
     "prestart": "npm --prefix client run build",
     "react": "npm --prefix client run dev",
     "start": "npm --prefix server start"
