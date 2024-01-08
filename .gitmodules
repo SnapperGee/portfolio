@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = snappergee-gh:SnapperGee/portfolio-server.git
+[submodule "client"]
+	path = client
+	url = snappergee-gh:SnapperGee/portfolio-client.git

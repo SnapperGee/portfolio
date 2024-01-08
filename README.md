@@ -1,3 +1,3 @@
 # Portfolio
 
-My portfolio website.
+Root of my portfolio website combining the client frontend and server backend.
