@@ -11,7 +11,7 @@
     "url": "https://github.com/SnapperGee/portfolio/issues"
   },
   "scripts": {
-    "build": "npm --prefix client run build && npm --prefix server run build-dist",
+    "build": "npm --prefix client run build && npm --prefix server run build",
     "clean": "rm -rf ./client/dist ./server/build",
     "dev": "concurrently -k \"npm --prefix server run dev\" \"npm run react\"",
     "express": "npm --prefix server run dev",
