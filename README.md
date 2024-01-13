@@ -19,15 +19,43 @@ Root of my portfolio website combining the client frontend and server backend.
 
 The frontend contains 4 navigable pages and an error page and implements a
 [react][react website] based interface utilizing [TailwindCSS][tailwind website]
-for its styling. More info can be found at the
-[client frontend repo][client frontend github repo] if its public.
+for its styling. Below is a breakdown of the frontend webpages or more info can
+be found (if available) in the [client frontend repo][client frontend github repo]:
+
+- ### About page
+
+  The About page contains a short relatively candid description of myself and
+  interests and a little bit about my history.
+
+- ### Portfolio page
+
+  The Portfolio page contains a list of projects I have worked on with short
+  descriptions of each project and links to their respective GitHub repositories
+  and deployed versions if applicable.
+
+- ### Contact page
+
+  The Contact page provides a form that allows users to message me in addition
+  to an email address I can be contacted at. The form requires a name, an email
+  address and/or a phone number for reply purposes, and the message to be sent
+  to me.
+
+- ### Resume page
+
+  The Resume page contains more specific information about which technologies I
+  have experience with, what features I implemented and was responsible for in
+  the projects I worked on, and my qualifications and work experience.
+
+- ### Error page
+
+  The error page is displayed when a user navigates to a page that does not exist.
 
 ## Server backend
 
 The backend is an [express][express website] server providing the sole
-functionality of sending a message when the `contact` page's message form is
-submitted. More info can be found at the
-[server backend repo][server backend github repo] if its public.
+functionality of sending a message when the [contact page](#contact-page)'s
+message form is submitted. More info (if available) can be found in the
+[server backend repo][server backend github repo].
 
 [node shield]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white "node"
 [node website]: https://nodejs.org/en/about "node"
