@@ -10,6 +10,15 @@
   "bugs": {
     "url": "https://github.com/SnapperGee/portfolio/issues"
   },
+  "keywords": [
+    "portfolio",
+    "website",
+    "react",
+    "vite",
+    "express",
+    "sass",
+    "typescript"
+  ],
   "scripts": {
     "build": "npm --prefix client run build && npm --prefix server run build",
     "clean": "rm -rf ./client/dist ./server/build",
