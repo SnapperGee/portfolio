@@ -57,6 +57,35 @@ functionality of sending a message when the [contact page](#contact-page)'s
 message form is submitted. More info (if available) can be found in the
 [server backend repo][server backend github repo].
 
+## Scripts
+
+This package contains 4 scripts useful for development:
+
+- `npm run dev`
+
+  Runs both the react client front end and express backend locally.
+
+- `npm run build`
+
+  Builds the client front end and server backend distributable packages.
+
+- `npm run clean`
+
+  Deletes the build output directories.
+
+- `npm run react`
+
+  Runs only the react client frontend locally.
+
+- `npm run express`
+
+  Runs only the express server backend locally.
+
+- `npm start`
+
+  Builds the distributable react frontend and express server backend packages
+  and starts the express server.
+
 [node shield]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white "node"
 [node website]: https://nodejs.org/en/about "node"
 [typescript shield]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white "TypeScript"
