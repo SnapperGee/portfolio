@@ -81,7 +81,7 @@ This package contains 4 scripts useful for development:
 
   Runs only the express server backend locally.
 
-- `npm start`
+- `npm start` and `npm run start`
 
   Builds the distributable react frontend and express server backend packages
   and starts the express server.
