@@ -4,7 +4,7 @@
   "private": true,
   "description": "My portfolio website.",
   "type": "module",
-  "main": "./server/build/dist/js/index.mjs",
+  "main": "./server/build/dist/js/index.js",
   "author": "Snap <XxSnapperGeexX@gmail.com> (https://github.com/SnapperGee)",
   "repository": "github:SnapperGee/portfolio",
   "bugs": {
